@@ -21,6 +21,12 @@
     <ClInclude Include="PrintHeader.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="LinkedBinaryTree.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Except.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,6 +38,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Prompt.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

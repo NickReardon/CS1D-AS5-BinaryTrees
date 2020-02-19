@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Except.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LinkedBinaryTree.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="PrintHeader.h" />
   </ItemGroup>
@@ -122,6 +127,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Input.txt" />
     <Text Include="IOStream.txt" />
     <Text Include="Prompt.txt" />
   </ItemGroup>
