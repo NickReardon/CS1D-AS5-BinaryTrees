@@ -1,9 +1,9 @@
 /*****************************************************************************
  * AUTHOR 	  		: Nick Reardon
- * Assignment #4	: Deque To Queue
+ * Assignment #5	: Binary Trees
  * CLASS			: CS1D
  * SECTION			: MW - 2:30p
- * DUE DATE			: 02 / 10 / 20
+ * DUE DATE			: 02 / 19 / 20
  *****************************************************************************/
 #ifndef _LINKEDBINARYTREE_H_
 #define _LINKEDBINARYTREE_H_
@@ -239,7 +239,7 @@ protected:
 
 
 
-	void Print2DUtil(const Node<Type>* branch, int space, std::ostream& output)
+	void Print2DUtil(const Node<Type>* branch, int space, std::ostream& output) const
 	{
 		// Base case  
 		if (branch == NULL)
@@ -392,14 +392,14 @@ public:
 		output << "\n\n";
 	}
 
-	void Print2D(std::ostream& output)
+	void Print2D(std::ostream& output) const
 	{
 		Print2DUtil(root, 0, output);
 	}
 
 
 
-	void printTree(std::ostream& output)
+	void printTree(std::ostream& output) const
 	{
 		printTreeHelper(root, nullptr, false, output);
 		output << "\n\n";

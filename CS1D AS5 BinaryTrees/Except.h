@@ -1,9 +1,9 @@
 /*****************************************************************************
  * AUTHOR 	  		: Nick Reardon
- * Extra Credit #1	: Extendable Array
+ * Assignment #5	: Binary Trees
  * CLASS			: CS1D
  * SECTION			: MW - 2:30p
- * DUE DATE			: 02 / 12 / 20
+ * DUE DATE			: 02 / 19 / 20
  *****************************************************************************/
 #ifndef _EXCEPT_H_
 #define _EXCEPT_H_
